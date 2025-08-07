@@ -15,8 +15,9 @@ import system.lib.minescript
 # a = 0
 
 a = 0
-kółka = int(sys.argv[1]) * 360
+nr_of_spins = int(sys.argv[1]) * 360
 speed = int(sys.argv[2])
-while(a<kółka):
+while(a<nr_of_spins):
     a+=speed
+
     m.player_set_orientation(a,0)
