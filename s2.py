@@ -1,0 +1,67 @@
+import minescript as m
+import sys
+import time
+import system.lib.minescript
+
+
+
+
+# with m.EventQueue() as events:
+#     events.register_chat_listener()
+#     while True:
+#         event = events.get()
+#         if event.type == m.EventType.CHAT and "ZBIGNIEW" in event.message.lower():
+#             m.echo("SKACZE!")
+#             m.player_press_jump(True)
+#             time.sleep(0.3)
+#             m.player_press_jump(False)
+
+
+
+# with m.EventQueue() as event_queue:
+#   event_queue.register_chat_listener()
+#   while True:
+#     event = event_queue.get()
+#     if event.type == m.EventType.CHAT:
+#       if not event.message.startswith("> "):
+#         m.echo(f"> Got chat message: {event.message}")
+
+
+# with m.EventQueue() as event_queue:
+#   event_queue.register_chat_listener()
+#   while True:
+#     event = event_queue.get()
+#     if event.type == m.EventType.CHAT:
+#       if not event.message.startswith("> "):
+#         msg = event.message
+#         m.echo(f"> Got chat message: {msg}")
+
+
+x = 0
+msg = sys.argv[1]
+print(msg)
+while (True):
+    try:
+        chest =  m.container_get_items()
+        if(chest != None):
+            chest =  m.container_get_items()
+            #print(chest[1].item)
+            # print(f"{chest}\n")
+            for x in range(1,73):
+                # print(f"{chest[x].item}")
+                if msg == chest[x].item:
+                  while True:
+                     m.echo_json({"text":"\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0ZNALEZIONO\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0","bold":True,"underlined":True,"color":"dark_red"})
+    except:
+        a = 0
+
+
+# with m.EventQueue() as event_queue:
+#   event_queue.register_chat_listener()
+#   while True:
+#     event = event_queue.get()
+#     if event.type == m.EventType.CHAT:
+#       if event.message.startswith("<Therr_>minecraft:"):
+#         echo(f"> Got chat message: {event.message}")
+#         item = event.message
+#         print(item)
