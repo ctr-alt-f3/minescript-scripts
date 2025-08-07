@@ -51,7 +51,7 @@ while (True):
                 # print(f"{chest[x].item}")
                 if msg == chest[x].item:
                   while True:
-                     m.echo_json({"text":"\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0ZNALEZIONO\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0","bold":True,"underlined":True,"color":"dark_red"})
+                     m.echo_json({"text":"\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0FOUND\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0\u26a0","bold":True,"underlined":True,"color":"dark_red"})
     except:
         a = 0
 
@@ -64,4 +64,5 @@ while (True):
 #       if event.message.startswith("<Therr_>minecraft:"):
 #         echo(f"> Got chat message: {event.message}")
 #         item = event.message
+
 #         print(item)
