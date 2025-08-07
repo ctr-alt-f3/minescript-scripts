@@ -3,6 +3,13 @@ import sys
 import time
 import system.lib.minescript
 
+##########################################################################
+#                                                                        #
+#                NOT RECCOMENDED TO USE                                  # 
+#                USE OPfishing INSTEAD                                   #
+#                                                                        #
+###########################################################################
+
 #m.execute('/item replace entity @p hotbar.0 with minecraft:fishing_rod')
 
 # map_enchants = [
@@ -64,4 +71,5 @@ while True:
         # event = events.get()
         # if event.type == m.EventType.CHAT and "ide" in event.message.lower():
         #       break
+
       
