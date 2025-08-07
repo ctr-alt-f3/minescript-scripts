@@ -1,3 +1,9 @@
+#
+# get argv[1] and get all of those items from opened chest
+# example:
+# \s minecraft:diamond
+# will steal all diamonds from opened chests
+
 import minescript as m
 import sys
 import time
@@ -18,4 +24,5 @@ while True:
            
     except:
          pass
+
 
