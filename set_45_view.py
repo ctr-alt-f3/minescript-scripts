@@ -20,5 +20,5 @@ elif 0>yaw>=-90:
      m.player_set_orientation(-45,pitch)
 elif 45>yaw>=0:
       m.player_set_orientation(45,pitch)
-else:
+elif 0<yaw<45:
       m.player_set_orientation(135,pitch)
