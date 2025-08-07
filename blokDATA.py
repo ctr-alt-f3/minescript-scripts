@@ -7,4 +7,5 @@ block = m.player_get_targeted_block(10)
 if(block):
     m.echo(f"{block.type}   {block.position}")
 else:
-    m.echo("wylew")
+
+    m.echo("no block found")
