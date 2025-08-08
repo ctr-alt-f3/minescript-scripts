@@ -8,7 +8,7 @@ import CENTRE_PLAYER
 
 
 #put player in the centre
-CENTRE_PLAYER.center_player()
+# CENTRE_PLAYER.center_player() #has autism - not reccomended to run
 #NOW START THE LOOP
 
 while True:
@@ -31,11 +31,11 @@ while True:
 
     #when travelled 4 blocks{                            #      
     while abs(int(m.player_position()[0]) - px) < 4 and abs(int(m.player_position()[2]) - pz) < 4:
-        print("not yet")
+        # print("not yet")
         time.sleep(2)
 
     # while True:
-    print("DONE")
+    # print("DONE")
     m.press_key_bind("key.forward",False)
     m.press_key_bind("key.attack",False)
 
