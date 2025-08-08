@@ -4,7 +4,9 @@ import time
 import math
 
 
-#has authism but who cares
+#has autism but who cares
+
+#autism is to huge - branchmining module will not use it from now
 
 def release_all_movement_keys():
     for key in ["key.forward", "key.left", "key.back", "key.right", 'key.sneak']:
@@ -54,7 +56,7 @@ def center_player():
             
             time.sleep(0.01)
 
-        m.echo("Wycentrowano!")
+        m.echo("DONE")
 
     except Exception as e:
         m.echo(f"ERROR: {e}")
