@@ -4,7 +4,7 @@ import sys
 import time
 from minescript_plus import Client,Gui
 import ready4mining
-import CENTRE_PLAYER
+import centre_player_lib
 
 
 #put player in the centre
