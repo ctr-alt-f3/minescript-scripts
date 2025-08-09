@@ -1,6 +1,10 @@
 # SPDX-FileCopyrightText: © 2023 Greg Christiana <maxuser@minescript.net>
 # SPDX-License-Identifier: MIT
 
+
+#DOWNLOADED FROM https://minescript.net/sdm_downloads/
+
+
 r"""chatbot v1 distributed via minescript.net
 
 Requires:
