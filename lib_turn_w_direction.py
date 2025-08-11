@@ -17,4 +17,3 @@ def turn_w_dir(target_destination):
     else:
         raise Exception ("only NSWE accepted")
 
-
