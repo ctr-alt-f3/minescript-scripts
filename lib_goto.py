@@ -42,11 +42,13 @@ def tunnel_goto(first,second):
     else:
         z_value = 1
         #final_step:
-    if m.getblock(x+x_value,y,z) == "minecraft:air" and m.getblock(x+x_value,y+1,z) == "minecraft:air":
+    #if m.getblock(x+x_value,y,z) == "minecraft:air" and m.getblock(x+x_value,y+1,z) == "minecraft:air":
+    if (m.getblock(x+x_value,y,z) == "minecraft:air") & (m.getblock(x+x_value,y+1,z) == "minecraft:air"):
                 #x is good 
         # print("going X first")        
         isXnext = 0
-    if m.getblock(x,y,z+z_value) == "minecraft:air" and m.getblock(x,y+1,z+z_value) == "minecraft:air":
+    # if m.getblock(x,y,z+z_value) == "minecraft:air" and m.getblock(x,y+1,z+z_value) == "minecraft:air":
+    if (m.getblock(x,y,z+z_value) == "minecraft:air") & (m.getblock(x,y+1,z+z_value) == "minecraft:air"):
                 #z is good
         isXnext = 1
         # print("going Z first")
@@ -127,3 +129,6 @@ def tunnel_goto(first,second):
 
 
     # tunnel_goto()
+
+# tunnel_goto("-8","10")
+
